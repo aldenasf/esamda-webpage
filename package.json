@@ -1,0 +1,17 @@
+{
+  "name": "esamda-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "npx tailwindcss -i ./src/styles.css -o ./public/stylesheets/styles.css",
+    "css-watch": "npx tailwindcss -i ./src/styles.css -o ./public/stylesheets/styles.css --watch"
+  },
+  "author": "aldenasf",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1"
+  }
+}
