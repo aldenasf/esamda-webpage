@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/public/stylesheets/styles.css" rel="stylesheet">
+    <script src="/public/javascripts/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav
+            class="lg:flex-nowrap flex-wrap lg:flex-row flex-col lg:items-center bg-blue-900 text-gray-200 py-4 lg:py-0 px-4 lg:px-28 min-h-18 w-full flex ">
+
+            <!-- branding -->
+            <div class="flex items-center flex-nowrap flex-row z-50 my-4">
+                <a href="/" class="flex">
+                    <img class="min-w-14 w-14 h-14 mr-2" src="/public/images/brand-sekolah/logo.png" alt="">
+                    <img class="min-w-32 w-32" src="/public/images/brand-sekolah/brand-text.svg" alt="">
+                </a>
+
+                <div class="flex lg:hidden ml-auto">
+                    <button class="navbar-burger flex items-center p-3" data-navbar-hamburger-btn>
+                        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- links -->
+            <div class="flex lg:ml-auto lg:mt-0 z-0 h-full">
+                <ul class="list-none bg-blue-900 flex flex-col lg:flex-row flex-wrap px-4:flex-nowrap absolute lg:relative w-full left-0 opacity-0 pointer-events-none lg:pointer-events-auto lg:opacity-100 items-center transition-all ease-in-out"
+                    data-navbar-content>
+                    <li class="w-full lg:w-auto">
+                        <a class="flex justify-center items-center lg:h-auto lg:px-6 py-4 lg:py-8 w-full lg:w-auto cursor-pointer hover:bg-blue-950 transition-colors ease-in-out"
+                            href="#">Home</a>
+                    </li>
+                    <li class="w-full lg:w-auto">
+                        <a class="flex justify-center items-center lg:h-auto lg:px-6 py-4 lg:py-8 w-full lg:w-auto cursor-pointer hover:bg-blue-950 transition-colors ease-in-out"
+                            href="#">Test</a>
+                    </li>
+                    <li class="w-full lg:w-auto" data-dropdown>
+                        <a class="flex justify-center items-center lg:h-auto lg:px-6 py-4 lg:py-8 w-full lg:w-auto cursor-pointer hover:bg-blue-950 transition-colors ease-in-out"
+                            href="#">Informasi
+                            <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+
+                        <ul class="hidden flex-wrap flex-col rounded-lg lg:absolute min-h-8 h-auto w-auto bg-blue-900">
+                            <li><a class="flex items-center rounded-lg lg:h-auto px-6 py-4 cursor-pointer hover:bg-blue-950"
+                                    href="">Test 1</a></li>
+                            <li><a class="flex items-center rounded-lg lg:h-auto px-6 py-4 cursor-pointer hover:bg-blue-950"
+                                    href="">Test 2</a></li>
+                            <li><a class="flex items-center rounded-lg lg:h-auto px-6 py-4 cursor-pointer hover:bg-blue-950"
+                                    href="">Test 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="w-full lg:w-auto">
+                        <a class="flex justify-center items-center lg:h-auto lg:px-6 py-4 lg:py-8 w-full lg:w-auto cursor-pointer hover:bg-blue-950 transition-colors ease-in-out"
+                            href="#">Test</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
